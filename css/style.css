@@ -18,6 +18,12 @@
     z-index: 999;
 }
 
+@media screen and (max-width: 380px) {
+    .navbar {
+        height: 60px;
+    }
+}
+
 .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -27,6 +33,13 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
+}
+
+@media screen and (max-width: 380px) {
+    .navbar__container {
+        padding: 0 20px;
+        height: 60px;
+    }
 }
 
 #navbar__logo {
@@ -42,6 +55,12 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 380px) {
+    #navbar__logo {
+        font-size: 1.5rem;
+    }
 }
 
 .navbar__menu {
@@ -184,7 +203,7 @@
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
     padding: 0px 0;
-    height: 100%vh;
+    height: 100%;
     display: block;
 }
 
@@ -303,7 +322,7 @@
     border-bottom: 4px solid rgb(132, 0, 255);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 380px) {
     .hero__heading {
         font-size: 60px;
     }
@@ -469,6 +488,13 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
+}
+
+@media screen and (max-width: 380px) {
+    .troll {
+        font-size: 50px;
+        padding: 20px 60px;
+    }
 }
 
 .troll a {
