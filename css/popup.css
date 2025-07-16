@@ -31,7 +31,7 @@ body {
 
 .popup-content {
     background: linear-gradient(-225deg, #5ee7df 0%, #b490ca 100%);
-    margin: 15% auto;
+    margin: 10% auto;
     /* 15% from the top and centered */
     border-radius: 25px;
     padding: 20px;
@@ -47,6 +47,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 380px) {
+    .popup-content {
+        width: 100%;
+        margin: 5% auto;
+        /* Adjust width for smaller screens */
+    }
 }
 
 .popup-content img {

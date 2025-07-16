@@ -274,12 +274,12 @@
 
 @media screen and (max-width: 380px) {
     .hero__container {
-        height: 100%;
+        padding: 10px
     }
 }
 
 .hero__heading {
-    font-size: 100px;
+    font-size: 60px;
     margin-bottom: 24px;
     background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
     background-size: 100%;
@@ -303,8 +303,14 @@
     -mo-text-fill-color: transparent;
 }
 
+@media screen and (max-width: 380px) {
+    .hero__heading span {
+        font-size: 40px;
+    }
+}
+
 .hero__description {
-    font-size: 60px;
+    font-size: 35px;
     background: #da22ff;
     /* fallback for old browsers */
     background: -webkit-linear-gradient( to right, #9114ff, #da22ff);
@@ -327,7 +333,7 @@
         font-size: 60px;
     }
     .hero__description {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
@@ -406,6 +412,13 @@
     outline: none;
 }
 
+@media screen and (max-width: 380px) {
+    .main__btn {
+        font-size: 1.3rem;
+        padding: 15px 50px;
+    }
+}
+
 .main__btn a {
     position: relative;
     z-index: 2;
@@ -446,13 +459,17 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
-}
-
-.showAchievement a {
     position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
+}
+
+@media screen and (max-width: 380px) {
+    .showAchievement {
+        font-size: 1.3rem;
+        padding: 15px 50px;
+    }
 }
 
 .showAchievement:after {
