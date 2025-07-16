@@ -1,0 +1,57 @@
+<!doctype html>
+
+<head>
+    <title>Achievement example</title>
+
+    <link rel="stylesheet" type="text/css" href="css\achievement.css" />
+    <style>
+        html {
+            overflow: hidden;
+        }
+        
+        body {
+            font-family: Verdana, Arial, Helvetica;
+        }
+        
+        #list {
+            display: none;
+            background-color: #eee;
+            height: 240px;
+            width: 100%;
+        }
+    </style>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="js\achievement.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            Achievements.initialize('myGame');
+            Achievements.register('Jae has captured Jazz!', 'August 2025');
+            Achievements.register('Second button', 'This button is just for show.');
+        });
+
+
+        function toggleList() {
+            $('#list').toggle('slow');
+            $('#list').html(Achievements.list);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <input name="Button1" type="button" value="Click for Achievement One" onclick="Achievements.show('Boyfriend Acquired!');"><br />
+        <input name="Button2" type="button" value="Click for Achievement Two" onclick="Achievements.show('Boyfriend Acquired!');"><br />
+        <input name="Button3" type="button" value="Clear achievements" onclick="Achievements.clear();"><br />
+        <br />
+        <input name="Button4" type="button" value="List achievements" onclick="toggleList();"><br />
+
+        <div id="list">
+
+        </div>
+    </div>
+
+    <div id="status" class="achievement"><span class="title">Achievement unlocked</span><br/><span id="text">Some text</span></div>
+</body>
