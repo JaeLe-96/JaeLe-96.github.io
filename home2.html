@@ -4,13 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sunshine</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="test.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OH HELL YEAH</title>
-    <link rel="stylesheet" href="css\style.css" />
     <title>Achievement Popup</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" type="text/css">
+    <script src="js/fadeOut.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+    </style>
 </head>
 
 <body>
@@ -19,32 +28,44 @@
         <div class="navbar__container">
 
             <a href="index.html" id="navbar__logo"><span class="auto-type"></span></a>
-            <div class="navbar__toggle" id="mobile-menu">
+            <!-- <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span> <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-
+                <span class="bar"></span> -->
         </div>
+        <!-- <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#About" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#No" class="navbar__links" id="no-page">Omg</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#Yes" class="button" id="yes-page">Yes</a>
+                </li>
+            </ul> -->
+        </div>
+
     </nav>
+
     <!-- Hero Section -->
+    <!-- <div class="container"> -->
+    <!--Question Screen-->
     <div class="hero" id="home">
         <div class="hero__container">
-
-            <!-- <button onclick="showAchievement()">Show Achievement</button> -->
-
-            <!-- <div id="achievement-popup" class="popup"> -->
-            <div class="popup-content">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/024/405/368/small_2x/transgender-flag-heart-pride-day-icon-isolated-png.png" alt="Achievement Icon">
-                <div class="text">
-                    <p class="title">Achievement Unlocked!</p>
-                    <p class="description">Jae has captured Jazz!</p>
-                    <p class="date">August 2025</p>
-                </div>
-            </div>
+            <h1 class="hero__heading">JAZZ <span>DOUCET</span></h1>
+            <img src="https://m.media-amazon.com/images/I/41nKzRwjV7L._UF1000,1000_QL80_.jpg" width="200" height="200">
+            <p class="hero__description">Choose Wisely...</p>
+            <!-- <button class="main__btn"><a href="yes.html">YES</a></button> -->
+            <button class="troll"><a href="yes.html">YES</a></button>
         </div>
+    </div>
 
-        <script src="test.js"></script>
+    <script src="popup.js"></script>
 </body>
+
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 <script>
@@ -55,5 +76,11 @@
         loop: true
     })
 </script>
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
 
 </html>

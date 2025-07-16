@@ -450,6 +450,48 @@
     width: 100%;
 }
 
+.troll {
+    font-size: 100px;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+    padding: 30px 100px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.troll a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.troll:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.troll:hover {
+    color: #fff;
+}
+
+.troll:hover:after {
+    width: 100%;
+}
+
 .main__img--container {
     text-align: center;
 }

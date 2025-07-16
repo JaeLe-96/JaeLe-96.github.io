@@ -11,11 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OH HELL YEAH</title>
     <title>Achievement Popup</title>
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" type="text/css">
     <script src="js/fadeOut.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
     </style>
@@ -59,10 +60,10 @@
             <p class="hero__description">Choose Wisely...</p>
             <!-- <button class="main__btn"><a href="yes.html">YES</a></button> -->
             <button class="showAchievement" onclick="showYes()">YES</button>
-            <button class="main__btn"><a href="#No">NO</a></button>
+            <button class="main__btn"><a href="no.html">NO</a></button>
         </div>
     </div>
-    </div>
+
     <div class="hero2" id="yes">
         <div class="hero__container">
 
@@ -129,6 +130,8 @@
         audio.play(); // Play the audio when the button is clicked
     });
 </script>
+
+
 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
