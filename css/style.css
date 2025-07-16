@@ -123,7 +123,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 60vh;
+        height: vh;
         font-size: 1.6rem;
     }
     #navbar__logo {
@@ -251,6 +251,12 @@
     height: 100vh;
     text-align: center;
     padding: 30px;
+}
+
+@media screen and (max-width: 380px) {
+    .hero__container {
+        height: 100%;
+    }
 }
 
 .hero__heading {
@@ -522,7 +528,7 @@
 
 /* Mobile Responsive */
 
-@media screen and (max-width: 1100px) {
+@media screen and (min-width: 1100px) {
     .main__container {
         display: grid;
         grid-template-columns: 1fr;
