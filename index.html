@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Sunshine</title>
-    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="test.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" type="text/css">
-    <script src="js\fadeOut.js"></script>
+    <script src="js/fadeOut.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
     </style>
@@ -48,6 +48,7 @@
         </div>
 
     </nav>
+
     <!-- Hero Section -->
     <!-- <div class="container"> -->
     <!--Question Screen-->
@@ -57,12 +58,35 @@
             <img src="https://m.media-amazon.com/images/I/41nKzRwjV7L._UF1000,1000_QL80_.jpg" width="200" height="200">
             <p class="hero__description">Choose Wisely...</p>
             <!-- <button class="main__btn"><a href="yes.html">YES</a></button> -->
-            <button class="showAchievement"><a href="yes.html">YES</a></button>
+            <button class="showAchievement" onclick="showYes()">YES</button>
             <button class="main__btn"><a href="#No">NO</a></button>
         </div>
     </div>
     </div>
+    <div class="hero" id="home">
+        <div class="hero__container">
 
+            <div class="popup-content">
+                <img src="img\transgender-flag-heart-pride-day-icon-isolated-png.webp" alt="Achievement Icon">
+                <div class="text">
+                    <p class="title">Achievement Unlocked!</p>
+                    <p class="description">Jae has captured Jazz!</p>
+                    <p class="date">August 2025</p>
+                </div>
+            </div>
+            <div>
+                <p><span class="lyrics"></span></p>
+                <br>
+                <p><span class="lyrics2" style="color: #ff8177"></span></p>
+                <br>
+                <p><span class="lyrics3" style="color: #ff8177"></span></p>
+                <br>
+                <p><span class="lyrics4" style="color: #ff8177"></span></p>
+                <br>
+                <h1><span class="lyrics5" style="color: #ff8177"></span></h1>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
@@ -74,7 +98,67 @@
         loop: true
     })
 </script>
+<!-- Audio element -->
+<audio id="audio">
+        <!-- Add your music file URL here -->
+        <source src="/audio/Lucky.mp3#t=00:00:05" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 
+<script>
+    var div = document.getElementById("home");
+    var display = 0;
 
+    function showYes() {
+        var audio = document.getElementById("audio");
+        audio.play();
+        if (display === 0) {
+            div.style.display = "none";
+            display = 0;
+        } else {
+
+            div.style.display = "block";
+            display = 1;
+        }
+    }
+</script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+    var lyrics = new Typed(".lyrics", {
+        strings: ["DON'T KNOW HOW I FOUND YOU"],
+        typeSpeed: 110,
+        backSpeed: 110,
+        loop: false
+    })
+    var lyrics2 = new Typed(".lyrics2", {
+        strings: ["I GUESS THAT DREAMS COME TRUE"],
+        startDelay: 5000,
+        typeSpeed: 90,
+        backSpeed: 110,
+        loop: false
+    })
+    var lyrics3 = new Typed(".lyrics3", {
+        strings: ["WHEN YOU LEAST EXPECT THEM TO"],
+        startDelay: 9000,
+        typeSpeed: 96,
+        backSpeed: 110,
+        loop: false
+    })
+    var lyrics4 = new Typed(".lyrics4", {
+        strings: ["AIN'T LIFE FUNNY?"],
+        startDelay: 12000,
+        typeSpeed: 95,
+        backSpeed: 110,
+        loop: false
+    })
+    var lyrics5 = new Typed(".lyrics5", {
+        strings: ["HOW DID I GET SO LUCKY?"],
+        startDelay: 15000,
+        typeSpeed: 95,
+        backSpeed: 110,
+        loop: false
+    })
+</script>
 < /body>
     < / html>
