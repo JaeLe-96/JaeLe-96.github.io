@@ -505,6 +505,10 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 380px) {
