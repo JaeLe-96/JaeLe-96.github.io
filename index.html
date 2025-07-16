@@ -63,7 +63,7 @@
         </div>
     </div>
     </div>
-    <div class="hero" id="home">
+    <div class="hero2" id="yes">
         <div class="hero__container">
 
             <div class="popup-content">
@@ -121,7 +121,15 @@
             display = 1;
         }
     }
+    const btn = document.querySelector('.showAchievement');
+    btn.addEventListener('click', function() {
+        const hero2 = document.querySelector('.hero2');
+        hero2.style.display = 'flex'; // Show the second hero section
+        const audio = document.getElementById('audio');
+        audio.play(); // Play the audio when the button is clicked
+    });
 </script>
+
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 <script>

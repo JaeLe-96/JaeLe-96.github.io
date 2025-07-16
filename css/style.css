@@ -185,6 +185,15 @@
     background: linear-gradient(to right, #161616, #000000);
     padding: 0px 0;
     height: 100%vh;
+    display: block;
+}
+
+.hero2 {
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 0px 0;
+    height: 100%vh;
+    display: none
 }
 
 .lyrics {
