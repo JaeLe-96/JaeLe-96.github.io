@@ -263,7 +263,7 @@
 }
 
 .hero__container {
-    display: absolute;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
