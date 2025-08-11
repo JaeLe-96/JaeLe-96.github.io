@@ -263,7 +263,7 @@
 }
 
 .hero__container {
-    display: block;
+    display: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -273,6 +273,7 @@
     text-align: center;
     padding: 30px;
     overflow-x: hidden;
+    overflow-y: hidden;
     width:100vw
 }
 
