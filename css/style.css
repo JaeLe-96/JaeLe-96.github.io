@@ -207,6 +207,7 @@
     padding: 0px 0;
     height: 100%;
     display: block;
+    overflow-y: hidden;
 }
 
 .hero2 {
@@ -214,7 +215,8 @@
     background: linear-gradient(to right, #161616, #000000);
     padding: 0px 0;
     height: 100%vh;
-    display: none
+    display: none;
+    overflow-y: hidden;
 }
 
 .lyrics {
