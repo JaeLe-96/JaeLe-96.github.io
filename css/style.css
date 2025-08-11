@@ -271,7 +271,7 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 100d;
+    height: 100dvh;
     text-align: center;
     padding: 30px;
     overflow-x: hidden;
@@ -417,6 +417,9 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
+    z-index: 2;
+    color:white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 380px) {
@@ -466,7 +469,7 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
-    position: relative;
+    
     z-index: 2;
     color: #fff;
     text-decoration: none;
@@ -504,7 +507,7 @@
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
-    padding: 30px 100px;
+    padding: 20px 90px;
     border: none;
     border-radius: 4px;
     margin-top: 2rem;
