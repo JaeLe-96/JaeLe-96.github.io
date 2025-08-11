@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Kumbh Sans', 'tetkur', sans-serif;
     scroll-behavior: smooth;
+    height: 100vh;
 }
 
 .navbar {
