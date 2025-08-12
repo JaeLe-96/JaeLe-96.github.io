@@ -205,7 +205,7 @@
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
     padding: 0px 0;
-    height: 100%;
+    height: 100vh;
     display: block;
     overflow-y: hidden;
 }
@@ -271,7 +271,7 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 100cap;
+    height: 100vh;
     text-align: center;
     padding: 30px;
     overflow-x: hidden;
@@ -511,12 +511,11 @@
     padding: 20px 90px;
     border: none;
     border-radius: 4px;
-    margin-top: 2rem;
+    margin-top: 10px;
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
     outline: none;
-    position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
