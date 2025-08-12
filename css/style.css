@@ -205,7 +205,7 @@
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
     padding: 0px 0;
-    height: 100vh;
+    height: 100%;
     display: block;
     overflow-y: hidden;
 }
@@ -271,7 +271,7 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 100%;
+    min-height: 100vh;
     text-align: center;
     padding: 30px;
     overflow-x: hidden;
