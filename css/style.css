@@ -265,13 +265,13 @@
 }
 
 .hero__container {
-    display: absolute;
+    display: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: auto;
+    height: 100%;
     text-align: center;
     padding: 30px;
     overflow-x: hidden;
