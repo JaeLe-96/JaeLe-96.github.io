@@ -331,7 +331,7 @@
 }
 
 .hero__troll{
-    font-size: 20px;
+    font-size: 25px;
     background: #da22ff;
     /* fallback for old browsers */
     background: -webkit-linear-gradient( to right, #9114ff, #da22ff);
