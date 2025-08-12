@@ -273,7 +273,7 @@
     text-align: center;
     padding: 30px;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     width:100vw;
     background:#000000;
 }
