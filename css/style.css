@@ -264,7 +264,7 @@
 }
 
 .hero__container {
-    display: absolute;
+    display: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -510,12 +510,11 @@
     padding: 20px 90px;
     border: none;
     border-radius: 4px;
-    margin-top: 2rem;
+    margin-top: 10px;
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
     outline: none;
-    position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
