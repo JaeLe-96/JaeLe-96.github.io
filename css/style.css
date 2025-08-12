@@ -271,7 +271,7 @@
     margin: 0 auto;
     height: 100vh;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     overflow-x: hidden;
     overflow-y: auto;
     width:100vw;
@@ -292,7 +292,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -mo-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .hero__heading span {
@@ -306,7 +306,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -mo-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 380px) {
