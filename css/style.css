@@ -206,7 +206,7 @@
     padding: 0px 0;
     height: 100%;
     display: block;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 .hero2 {
@@ -263,7 +263,7 @@
 }
 
 .hero__container {
-    display: flex;
+    display: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -273,9 +273,9 @@
     text-align: center;
     padding: 20px;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     width:100vw;
-    background:#000000
+    background:#000000;
 }
 
 @media screen and (max-width: 380px) {
