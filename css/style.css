@@ -206,7 +206,7 @@
     padding: 0px 0;
     height: 100vh;
     display: block;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .hero2 {
@@ -273,7 +273,7 @@
     text-align: center;
     padding: 30px;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     width:100vw;
     background:#000000;
 }
